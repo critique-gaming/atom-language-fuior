@@ -5,12 +5,13 @@ parser: 'tree-sitter-fuior'
 fileTypes: ['fui']
 scopes:
   'comment': 'comment'
-  'command_verb': 'keyword'
+  'command_verb': 'entity.name.function'
+  'stat_operation > identifier': 'variable'
   'if_statement > "if", else_clause > "else", elseif_clause > "elseif", if_statement > "end", choose_statement > "choose", choose_statement > "end"': 'keyword.control'
   'choice > text_copy': 'constant.string'
   'choice > "*"': 'variable'
   'number': 'constant.numeric'
-  'string': 'string'
+  'string': 'constant.string'
   'text_actor': 'support.function.library'
   'text_animation': 'variable'
 comments:
