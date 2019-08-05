@@ -6,12 +6,15 @@ fileTypes: ['fui']
 scopes:
   'comment': 'comment'
   'command_verb': 'entity.name.function'
-  'stat_operation > identifier': 'variable'
+  'stat_operation > stat_lvalue': 'variable'
   'if_statement > "if", else_clause > "else", elseif_clause > "elseif", if_statement > "end", choose_statement > "choose", choose_statement > "end"': 'keyword.control'
   'choice > text_copy': 'constant.string'
   'choice > "*"': 'variable'
+  'unary_expression > "not"': 'keyword.control'
+  'binary_expression > "and", binary_expression > "or"': 'keyword.control'
   'number': 'constant.numeric'
   'string': 'constant.string'
+  'boolean': 'constant.boolean'
   'text_actor': 'support.function.library'
   'text_animation': 'variable'
 comments:
@@ -19,6 +22,6 @@ comments:
 folds: [
   { type: 'if_clause' }
   { type: 'else_clause', start: { type: '"else"' }}
-  { type: 'elseif_clause', start: { type: 'expression' }}
+  { type: 'elseif_clause', start: { type: 'condition' }}
   { type: 'choice', start: { type: 'text_copy' }}
 ]
