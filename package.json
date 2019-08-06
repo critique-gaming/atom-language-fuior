@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "description": "Fuior (narrative design DSL) language support in Atom",
   "author": "",
-  "license": "UNLICENSED",
-  "private": true,
+  "license": "ISC",
   "dependencies": {
     "tree-sitter-fuior": "^0.1.0"
   }
