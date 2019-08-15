@@ -1,0 +1,11 @@
+'menu': [
+  {
+    label: 'Packages'
+    submenu: [
+      label: 'Fuior'
+      submenu: [
+        {label:'Run in game', command: 'fuior:run-in-game'}
+      ]
+    ]
+  }
+]
