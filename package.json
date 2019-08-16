@@ -1,6 +1,6 @@
 {
   "name": "language-fuior",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "main": "src/index.js",
   "description": "Fuior (narrative design DSL) language support in Atom",
   "author": "Marius Petcu <dapetcu21@gmail.com>",
@@ -9,7 +9,9 @@
   "bugs": {
     "url": "https://github.com/dapetcu21/atom-language-fuior/issues"
   },
-  "config": { "runtime": "electron" },
+  "config": {
+    "runtime": "electron"
+  },
   "homepage": "https://github.com/dapetcu21/atom-language-fuior#readme",
   "dependencies": {
     "tree-sitter-fuior": "0.1.1"
