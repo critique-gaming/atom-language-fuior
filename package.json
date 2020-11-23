@@ -1,6 +1,6 @@
 {
   "name": "language-fuior",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "main": "src/index.js",
   "description": "Fuior (narrative design DSL) language support in Atom",
   "author": "Marius Petcu <dapetcu21@gmail.com>",
