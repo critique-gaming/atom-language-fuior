@@ -11,6 +11,6 @@
   },
   "homepage": "https://github.com/dapetcu21/atom-language-fuior#readme",
   "dependencies": {
-    "tree-sitter-fuior": "^0.2.1"
+    "tree-sitter-fuior": "^0.8.0"
   }
 }
